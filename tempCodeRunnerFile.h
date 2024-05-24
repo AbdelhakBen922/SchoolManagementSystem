@@ -1,0 +1,13 @@
+class School;
+// class Year;
+// class Group;
+// class Section;
+// class Schedule;
+// class Date;
+// class Time;
+// class Semestre;
+// class Course;
+// class Student;
+// class Teacher;
+// class Administrator;
+// class Place;
