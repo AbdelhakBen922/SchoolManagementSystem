@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c9d8ff6f76ef1b79faab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tt-Debug-46505f726e8e05063061.json",
+					"name" : "tt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tt_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tt_autogen-Debug-5010f2a66583d6c37a8a.json",
+					"name" : "tt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tt_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tt_autogen_timestamp_deps-Debug-8de6e584872c5fc2b26b.json",
+					"name" : "tt_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kali9/tt/build/Desktop_Qt_6_8_0_64-Debug",
+		"source" : "/home/kali9/tt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

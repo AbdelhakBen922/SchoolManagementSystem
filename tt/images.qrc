@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>P1000583.jpg</file>
+        <file>home.png</file>
+        <file>home (1).png</file>
+        <file>home (2).png</file>
+        <file>arrow.png</file>
+        <file>arrows.png</file>
+        <file>comment.png</file>
+        <file>exit.png</file>
+        <file>log-out.png</file>
+        <file>notification.png</file>
+    </qresource>
+</RCC>

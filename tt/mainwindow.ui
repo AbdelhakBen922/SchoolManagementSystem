@@ -1,0 +1,2523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>676</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_14">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#ebebb0;</string>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>200</y>
+          <width>711</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QFrame" name="Adminbtn">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: #25361f; 
+border-radius: 35%;
+margin:7px;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="teacherbtn">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: #25361f; 
+border-radius: 35%;
+margin:7px;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="studentbtn">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: #25361f; 
+border-radius: 35%;
+margin:7px;</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>50</y>
+          <width>711</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>24</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #06401d;</string>
+        </property>
+        <property name="text">
+         <string>Select Your Role :</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::RichText</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>800</width>
+         <height>600</height>
+        </size>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>199</x>
+          <y>69</y>
+          <width>331</width>
+          <height>231</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="Form">
+         <item>
+          <widget class="QLabel" name="user">
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: #06401d;</string>
+           </property>
+           <property name="text">
+            <string>Username / Email</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::RichText</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="usernameinput">
+           <property name="styleSheet">
+            <string notr="true">font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #6f8569;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #2b3b26;
+  padding: 7px 0;
+  background: transparent;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="password">
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: #06401d;</string>
+           </property>
+           <property name="text">
+            <string>Password</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::RichText</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="PasswordInput">
+           <property name="styleSheet">
+            <string notr="true">font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #6f8569;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #2b3b26;
+  padding: 7px 0;
+  background: transparent;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>300</y>
+          <width>311</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="Loginbtn">
+         <item>
+          <widget class="QPushButton" name="Return">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: #ebebb0;
+    color: #06401d;
+    border: 2px solid #06401d;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+margin-left:15px;
+}
+
+QPushButton:hover {
+    background-color: #06401d;
+    border-color: #055119;
+	color:#ebebb0;
+}
+
+QPushButton:pressed {
+    background-color: #06401d;
+    border-color: #04310f;
+    color: #f0f0f0;
+}</string>
+           </property>
+           <property name="text">
+            <string>Return</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Login">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    background-color: #ebebb0;
+    color: #06401d;
+    border: 2px solid #06401d;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+margin-left:15px;
+}
+
+QPushButton:hover {
+    background-color: #06401d;
+    border-color: #055119;
+	color:#ebebb0;
+}
+
+QPushButton:pressed {
+    background-color: #06401d;
+    border-color: #04310f;
+    color: #f0f0f0;
+}</string>
+           </property>
+           <property name="text">
+            <string>Login</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>380</y>
+          <width>310</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="Register">
+         <item>
+          <widget class="QLabel" name="user_3">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: #06401d;</string>
+           </property>
+           <property name="text">
+            <string>New Account!</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::RichText</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">   QPushButton {
+        background-color: transparent;
+        color: #06401d;
+        text-decoration: underline;
+        font-weight: bold;
+        border: none;
+    }
+
+    QPushButton:hover {
+        color: #055119;
+    }</string>
+           </property>
+           <property name="text">
+            <string>REGISTER</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="user_2">
+           <property name="font">
+            <font>
+             <pointsize>13</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: #06401d;</string>
+           </property>
+           <property name="text">
+            <string>Now!!</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::RichText</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QStackedWidget" name="AppInterface">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="StudentI">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QWidget" name="SideBareFalse_5" native="true">
+              <property name="styleSheet">
+               <string notr="true">background-color: #25361f; 
+border:none;
+height:38px;</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_10">
+               <item>
+                <widget class="QLabel" name="sidePhoto">
+                 <property name="minimumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">  border-radius: 50%;
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>P1000583.jpg</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_55">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/arrows.png</normaloff>:/images/arrows.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_56">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/home (2).png</normaloff>:/images/home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_51">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/notification.png</normaloff>:/images/notification.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_58">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/comment.png</normaloff>:/images/comment.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_59">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/home (2).png</normaloff>:/images/home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_10">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>18</width>
+                   <height>250</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_60">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/log-out.png</normaloff>:/images/log-out.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="SideBareTrue_5" native="true">
+              <property name="styleSheet">
+               <string notr="true">
+@font-face {
+  font-family: myFirstFont;
+  src: url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap');
+  font-weight: bold;
+}
+QWidget{
+background-color: #25361f; 
+}
+QPushButton {
+color:#DADA83;
+font-size:25px;
+font-family:myFirstFont;
+text-align:left;
+padding-left:10px;
+border:none;
+height:38px;
+radius:20px;
+}</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_9">
+               <item>
+                <widget class="QLabel" name="sidephoto">
+                 <property name="minimumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">  border-radius: 50%;
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>P1000583.jpg</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_49">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/arrow.png</normaloff>:/images/arrow.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GoToHome">
+                 <property name="text">
+                  <string>Home</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/home (2).png</normaloff>:/images/home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GotoNotification">
+                 <property name="styleSheet">
+                  <string notr="true">padding-left:5px;</string>
+                 </property>
+                 <property name="text">
+                  <string>Notification</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/notification.png</normaloff>:/images/notification.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GoToMessages">
+                 <property name="text">
+                  <string>Messages</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/comment.png</normaloff>:/images/comment.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>20</width>
+                   <height>19</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="GoToClassRoom">
+                 <property name="text">
+                  <string>Classroom</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/home (2).png</normaloff>:/images/home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_9">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>18</width>
+                   <height>195</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="LogOut">
+                 <property name="text">
+                  <string>Log out</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="images.qrc">
+                   <normaloff>:/images/log-out.png</normaloff>:/images/log-out.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QStackedWidget" name="MainW">
+              <widget class="QWidget" name="HomePage">
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item>
+                 <widget class="QWidget" name="widget_2" native="true">
+                  <layout class="QHBoxLayout" name="horizontalLayout_8">
+                   <item>
+                    <widget class="QWidget" name="widget" native="true">
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>300</height>
+                      </size>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QWidget{
+margin:0;
+heigth:10px;}</string>
+                     </property>
+                     <layout class="QVBoxLayout" name="verticalLayout_12">
+                      <property name="leftMargin">
+                       <number>2</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QWidget" name="widget_7" native="true">
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>80</height>
+                         </size>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_13">
+                         <item>
+                          <widget class="QLabel" name="ProfilePhoto">
+                           <property name="minimumSize">
+                            <size>
+                             <width>60</width>
+                             <height>60</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>60</width>
+                             <height>60</height>
+                            </size>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="Name">
+                           <property name="font">
+                            <font>
+                             <family>DejaVu Sans</family>
+                             <pointsize>12</pointsize>
+                             <italic>true</italic>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color: #06401d;</string>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                           <property name="wordWrap">
+                            <bool>true</bool>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QWidget" name="widget_11" native="true">
+                        <property name="maximumSize">
+                         <size>
+                          <width>500</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <layout class="QHBoxLayout" name="horizontalLayout_10">
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item alignment="Qt::AlignLeft">
+                          <widget class="QLabel" name="label_16">
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color: #06401d;
+font-size:14px;
+padding:0;</string>
+                           </property>
+                           <property name="text">
+                            <string>Age :</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="Age">
+                           <property name="font">
+                            <font>
+                             <pointsize>12</pointsize>
+                             <italic>true</italic>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color:#60623d;</string>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QWidget" name="widget_13" native="true">
+                        <layout class="QHBoxLayout" name="horizontalLayout_12">
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item>
+                          <widget class="QLabel" name="label_20">
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color: #06401d;
+font-size:14px;
+padding:0;</string>
+                           </property>
+                           <property name="text">
+                            <string>Email :</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="Email">
+                           <property name="font">
+                            <font>
+                             <pointsize>12</pointsize>
+                             <italic>true</italic>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color:#60623d;</string>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QWidget" name="widget_12" native="true">
+                        <layout class="QHBoxLayout" name="horizontalLayout_11">
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item>
+                          <widget class="QLabel" name="label_18">
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color: #06401d;
+font-size:14px;
+padding:0;</string>
+                           </property>
+                           <property name="text">
+                            <string>Phone :</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="Phone">
+                           <property name="font">
+                            <font>
+                             <pointsize>12</pointsize>
+                             <italic>true</italic>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color:#60623d;</string>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QWidget" name="widget_10" native="true">
+                        <layout class="QHBoxLayout" name="horizontalLayout_9">
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item>
+                          <widget class="QLabel" name="label_14">
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color: #06401d;
+font-size:14px;
+padding:0;</string>
+                           </property>
+                           <property name="text">
+                            <string>Group :</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="Group">
+                           <property name="font">
+                            <font>
+                             <pointsize>12</pointsize>
+                             <italic>true</italic>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color:#60623d;</string>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QWidget" name="widget_15" native="true">
+                        <layout class="QHBoxLayout" name="horizontalLayout_15">
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item>
+                          <widget class="QLabel" name="label_26">
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color: #06401d;
+font-size:14px;
+padding:0;</string>
+                           </property>
+                           <property name="text">
+                            <string>Section</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="Section">
+                           <property name="font">
+                            <font>
+                             <pointsize>12</pointsize>
+                             <italic>true</italic>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color:#60623d;</string>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QWidget" name="widget_14" native="true">
+                        <layout class="QHBoxLayout" name="horizontalLayout_14">
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item>
+                          <widget class="QLabel" name="label_24">
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color: #06401d;
+font-size:14px;
+padding:0;</string>
+                           </property>
+                           <property name="text">
+                            <string>Year :</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="Year">
+                           <property name="font">
+                            <font>
+                             <pointsize>12</pointsize>
+                             <italic>true</italic>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color:#60623d;</string>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QWidget" name="widget_9" native="true">
+                        <layout class="QHBoxLayout" name="horizontalLayout_6">
+                         <property name="leftMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="topMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="rightMargin">
+                          <number>0</number>
+                         </property>
+                         <property name="bottomMargin">
+                          <number>0</number>
+                         </property>
+                         <item>
+                          <widget class="QLabel" name="label_7">
+                           <property name="maximumSize">
+                            <size>
+                             <width>150</width>
+                             <height>16777215</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color: #06401d;
+font-size:14px;
+padding:0;</string>
+                           </property>
+                           <property name="text">
+                            <string>SchoolID :</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="SchoolID">
+                           <property name="font">
+                            <font>
+                             <pointsize>12</pointsize>
+                             <italic>true</italic>
+                             <bold>true</bold>
+                            </font>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">color:#60623d;</string>
+                           </property>
+                           <property name="text">
+                            <string>TextLabel</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QWidget" name="widget_6" native="true">
+                     <property name="maximumSize">
+                      <size>
+                       <width>180</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <layout class="QVBoxLayout" name="verticalLayout_11">
+                      <item>
+                       <widget class="QLabel" name="label_6">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>30</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: #06401d;
+font-size:24px;
+padding:0;
+margin:0;</string>
+                        </property>
+                        <property name="text">
+                         <string>Next Session</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="nextSession">
+                        <property name="autoFillBackground">
+                         <bool>false</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color:#60623d;</string>
+                        </property>
+                        <property name="text">
+                         <string>TextLabel</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_12">
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>30</height>
+                         </size>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: #06401d;
+font-size:24px;
+padding:0;
+margin:0;</string>
+                        </property>
+                        <property name="text">
+                         <string>Next Task</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="nextTask">
+                        <property name="styleSheet">
+                         <string notr="true">color:#60623d;</string>
+                        </property>
+                        <property name="text">
+                         <string>TextLabel</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QWidget" name="widget_4" native="true">
+                  <layout class="QVBoxLayout" name="verticalLayout_5">
+                   <item>
+                    <widget class="QWidget" name="widget_3" native="true">
+                     <layout class="QVBoxLayout" name="verticalLayout_15">
+                      <item>
+                       <widget class="QLabel" name="label_28">
+                        <property name="styleSheet">
+                         <string notr="true">color: #06401d;
+font-size:24px;
+padding:0;
+margin:0;</string>
+                        </property>
+                        <property name="text">
+                         <string>ToDo List :</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_29">
+                        <property name="styleSheet">
+                         <string notr="true">color:#60623d;</string>
+                        </property>
+                        <property name="text">
+                         <string>TextLabel</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QWidget" name="widget_5" native="true">
+                     <property name="styleSheet">
+                      <string notr="true">color:#60623d;</string>
+                     </property>
+                     <layout class="QVBoxLayout" name="verticalLayout_13">
+                      <item>
+                       <widget class="QLabel" name="label_30">
+                        <property name="styleSheet">
+                         <string notr="true">color: #06401d;
+font-size:24px;
+padding:0;
+margin:0;</string>
+                        </property>
+                        <property name="text">
+                         <string>Comming Events :</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_31">
+                        <property name="text">
+                         <string>TextLabel</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="Notification">
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                 <widget class="QLabel" name="label_5">
+                  <property name="font">
+                   <font>
+                    <pointsize>18</pointsize>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: #06401d;</string>
+                  </property>
+                  <property name="text">
+                   <string>No Notifications Yet!</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="Messages">
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="font">
+                   <font>
+                    <pointsize>18</pointsize>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: #06401d;</string>
+                  </property>
+                  <property name="text">
+                   <string>No Messages Yet!</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="Classroom">
+               <layout class="QVBoxLayout" name="verticalLayout_16">
+                <item>
+                 <widget class="QWidget" name="Course" native="true">
+                  <layout class="QVBoxLayout" name="verticalLayout_17">
+                   <item>
+                    <widget class="QLabel" name="CourseName">
+                     <property name="font">
+                      <font>
+                       <pointsize>20</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color:#DADA83;
+text-align:left;
+padding-left:10px;height: 10%;
+background-color: #06401d;;</string>
+                     </property>
+                     <property name="text">
+                      <string>Linear Algebra</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="TAskBAr">
+                     <property name="text">
+                      <string>TextLabel</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="TeacherI">
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QWidget" name="SideBareFalse_4" native="true">
+              <property name="styleSheet">
+               <string notr="true">background-color: #25361f; 
+border:none;
+height:38px;</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_8">
+               <item>
+                <widget class="QLabel" name="label_9">
+                 <property name="minimumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">radius:20px;</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>P1000583.jpg</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_43">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>arrows.png</normaloff>arrows.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_47">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_44">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>notification.png</normaloff>notification.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_45">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>comment.png</normaloff>comment.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_46">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>18</width>
+                   <height>250</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_48">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>log-out.png</normaloff>log-out.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="SideBareTrue_4" native="true">
+              <property name="styleSheet">
+               <string notr="true">
+@font-face {
+  font-family: myFirstFont;
+  src: url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap');
+  font-weight: bold;
+}
+QWidget{
+background-color: #25361f; 
+}
+QPushButton {
+color:#DADA83;
+font-size:25px;
+font-family:myFirstFont;
+text-align:left;
+padding-left:10px;
+border:none;
+height:38px;
+radius:20px;
+}</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <item>
+                <widget class="QLabel" name="label_8">
+                 <property name="minimumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">radius:20px;</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>P1000583.jpg</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_41">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>arrow.png</normaloff>arrow.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_37">
+                 <property name="text">
+                  <string>Home</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_38">
+                 <property name="text">
+                  <string>Notification</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>notification.png</normaloff>notification.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_39">
+                 <property name="text">
+                  <string>Messages</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>comment.png</normaloff>comment.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_40">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>18</width>
+                   <height>195</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_42">
+                 <property name="text">
+                  <string>Log out</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>log-out.png</normaloff>log-out.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QStackedWidget" name="stackedWidget_5">
+              <widget class="QWidget" name="page_10"/>
+              <widget class="QWidget" name="page_11"/>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="AdministratorI">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QWidget" name="SideBareFalse" native="true">
+              <property name="styleSheet">
+               <string notr="true">background-color: #25361f; 
+</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout">
+               <item>
+                <widget class="QLabel" name="label_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">radius:20px;</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>P1000583.jpg</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_2">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>notification.png</normaloff>notification.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_3">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>comment.png</normaloff>comment.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_4">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_5">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>18</width>
+                   <height>250</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_6">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>log-out.png</normaloff>log-out.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="SideBareTrue" native="true">
+              <property name="styleSheet">
+               <string notr="true">
+@font-face {
+  font-family: myFirstFont;
+  src: url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap');
+  font-weight: bold;
+}
+QWidget{
+background-color: #25361f; 
+}
+QPushButton {
+color:#DADA83;
+font-size:25px;
+font-family:myFirstFont;
+text-align:left;
+padding-left:10px;
+border:none;
+height:38px;
+radius:20px;
+}</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_2">
+               <item>
+                <widget class="QLabel" name="label_4">
+                 <property name="minimumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">radius:20px;</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap>P1000583.jpg</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_13">
+                 <property name="text">
+                  <string>Home</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_14">
+                 <property name="text">
+                  <string>Notification</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>notification.png</normaloff>notification.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_15">
+                 <property name="text">
+                  <string>Messages</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>comment.png</normaloff>comment.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_16">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_17">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>home (2).png</normaloff>home (2).png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_2">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>18</width>
+                   <height>195</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Home_18">
+                 <property name="text">
+                  <string>Log out</string>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>log-out.png</normaloff>log-out.png</iconset>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                 <property name="autoExclusive">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QStackedWidget" name="stackedWidget_2">
+              <widget class="QWidget" name="page_4"/>
+              <widget class="QWidget" name="page_5"/>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Home_41</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SideBareTrue_4</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>76</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_41</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SideBareFalse_4</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>45</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_43</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SideBareFalse_4</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>45</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_43</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SideBareTrue_4</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>76</x>
+     <y>29</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_47</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Home_37</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>32</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_44</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Home_38</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>32</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_45</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Home_39</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>32</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_46</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Home_40</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>65</x>
+     <y>32</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_49</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SideBareFalse_5</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>192</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>57</x>
+     <y>489</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_49</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SideBareTrue_5</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>224</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>414</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_55</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SideBareTrue_5</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>225</x>
+     <y>405</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_55</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SideBareFalse_5</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>34</x>
+     <y>116</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>39</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_56</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>GoToHome</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>45</x>
+     <y>158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>203</x>
+     <y>162</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_51</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>GotoNotification</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>207</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>207</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_58</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>GoToMessages</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>272</x>
+     <y>252</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_59</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>GoToClassRoom</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>272</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_60</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>LogOut</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>642</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_56</sender>
+   <signal>clicked()</signal>
+   <receiver>GoToHome</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>54</x>
+     <y>140</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>151</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_51</sender>
+   <signal>clicked()</signal>
+   <receiver>GotoNotification</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>121</x>
+     <y>184</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_58</sender>
+   <signal>clicked()</signal>
+   <receiver>GoToMessages</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_59</sender>
+   <signal>clicked()</signal>
+   <receiver>GoToClassRoom</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>276</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Home_60</sender>
+   <signal>clicked()</signal>
+   <receiver>LogOut</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>64</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>137</x>
+     <y>629</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

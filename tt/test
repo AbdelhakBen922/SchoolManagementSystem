@@ -1,0 +1,345 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 5.15.10
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QFrame>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QStackedWidget>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QWidget *centralwidget;
+    QStackedWidget *stackedWidget;
+    QWidget *page;
+    QWidget *horizontalLayoutWidget;
+    QHBoxLayout *horizontalLayout;
+    QFrame *Adminbtn;
+    QFrame *teacherbtn;
+    QFrame *studentbtn;
+    QLabel *label;
+    QWidget *page_2;
+    QWidget *verticalLayoutWidget;
+    QVBoxLayout *Form;
+    QLabel *user;
+    QLineEdit *usernameinput;
+    QLabel *password;
+    QLineEdit *PasswordInput;
+    QWidget *horizontalLayoutWidget_2;
+    QHBoxLayout *Loginbtn;
+    QPushButton *Return;
+    QPushButton *Login;
+    QWidget *horizontalLayoutWidget_3;
+    QHBoxLayout *Register;
+    QLabel *user_3;
+    QPushButton *pushButton;
+    QLabel *user_2;
+    QMenuBar *menubar;
+    QStatusBar *statusbar;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(800, 600);
+        MainWindow->setCursor(QCursor(Qt::PointingHandCursor));
+        centralwidget = new QWidget(MainWindow);
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(centralwidget->sizePolicy().hasHeightForWidth());
+        centralwidget->setSizePolicy(sizePolicy);
+        stackedWidget = new QStackedWidget(centralwidget);
+        stackedWidget->setObjectName(QString::fromUtf8("stackedWidget"));
+        stackedWidget->setGeometry(QRect(0, -40, 800, 600));
+        sizePolicy.setHeightForWidth(stackedWidget->sizePolicy().hasHeightForWidth());
+        stackedWidget->setSizePolicy(sizePolicy);
+        stackedWidget->setStyleSheet(QString::fromUtf8("background-color:#ebebb0;"));
+        page = new QWidget();
+        page->setObjectName(QString::fromUtf8("page"));
+        sizePolicy.setHeightForWidth(page->sizePolicy().hasHeightForWidth());
+        page->setSizePolicy(sizePolicy);
+        horizontalLayoutWidget = new QWidget(page);
+        horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
+        horizontalLayoutWidget->setGeometry(QRect(40, 200, 711, 321));
+        horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        Adminbtn = new QFrame(horizontalLayoutWidget);
+        Adminbtn->setObjectName(QString::fromUtf8("Adminbtn"));
+        Adminbtn->setCursor(QCursor(Qt::PointingHandCursor));
+        Adminbtn->setStyleSheet(QString::fromUtf8("background-color: #25361f; \n"
+"border-radius: 35%;\n"
+"margin:7px;"));
+        Adminbtn->setFrameShape(QFrame::StyledPanel);
+        Adminbtn->setFrameShadow(QFrame::Raised);
+
+        horizontalLayout->addWidget(Adminbtn);
+
+        teacherbtn = new QFrame(horizontalLayoutWidget);
+        teacherbtn->setObjectName(QString::fromUtf8("teacherbtn"));
+        teacherbtn->setCursor(QCursor(Qt::PointingHandCursor));
+        teacherbtn->setStyleSheet(QString::fromUtf8("background-color: #25361f; \n"
+"border-radius: 35%;\n"
+"margin:7px;"));
+        teacherbtn->setFrameShape(QFrame::StyledPanel);
+        teacherbtn->setFrameShadow(QFrame::Raised);
+
+        horizontalLayout->addWidget(teacherbtn);
+
+        studentbtn = new QFrame(horizontalLayoutWidget);
+        studentbtn->setObjectName(QString::fromUtf8("studentbtn"));
+        studentbtn->setCursor(QCursor(Qt::PointingHandCursor));
+        studentbtn->setStyleSheet(QString::fromUtf8("background-color: #25361f; \n"
+"border-radius: 35%;\n"
+"margin:7px;"));
+        studentbtn->setFrameShape(QFrame::StyledPanel);
+        studentbtn->setFrameShadow(QFrame::Raised);
+
+        horizontalLayout->addWidget(studentbtn);
+
+        label = new QLabel(page);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(40, 50, 711, 61));
+        QFont font;
+        font.setPointSize(24);
+        font.setBold(true);
+        label->setFont(font);
+        label->setStyleSheet(QString::fromUtf8("color: #06401d;"));
+        label->setTextFormat(Qt::RichText);
+        label->setAlignment(Qt::AlignCenter);
+        stackedWidget->addWidget(page);
+        page_2 = new QWidget();
+        page_2->setObjectName(QString::fromUtf8("page_2"));
+        sizePolicy.setHeightForWidth(page_2->sizePolicy().hasHeightForWidth());
+        page_2->setSizePolicy(sizePolicy);
+        page_2->setMinimumSize(QSize(800, 600));
+        verticalLayoutWidget = new QWidget(page_2);
+        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
+        verticalLayoutWidget->setGeometry(QRect(199, 69, 331, 231));
+        Form = new QVBoxLayout(verticalLayoutWidget);
+        Form->setObjectName(QString::fromUtf8("Form"));
+        Form->setContentsMargins(0, 0, 0, 0);
+        user = new QLabel(verticalLayoutWidget);
+        user->setObjectName(QString::fromUtf8("user"));
+        QFont font1;
+        font1.setPointSize(16);
+        font1.setBold(true);
+        user->setFont(font1);
+        user->setStyleSheet(QString::fromUtf8("color: #06401d;"));
+        user->setTextFormat(Qt::RichText);
+        user->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        Form->addWidget(user);
+
+        usernameinput = new QLineEdit(verticalLayoutWidget);
+        usernameinput->setObjectName(QString::fromUtf8("usernameinput"));
+        usernameinput->setStyleSheet(QString::fromUtf8("font-family: inherit;\n"
+"  width: 100%;\n"
+"  border: 0;\n"
+"  border-bottom: 2px solid #6f8569;\n"
+"  outline: 0;\n"
+"  font-size: 1.3rem;\n"
+"  color: #2b3b26;\n"
+"  padding: 7px 0;\n"
+"  background: transparent;"));
+
+        Form->addWidget(usernameinput);
+
+        password = new QLabel(verticalLayoutWidget);
+        password->setObjectName(QString::fromUtf8("password"));
+        password->setFont(font1);
+        password->setStyleSheet(QString::fromUtf8("color: #06401d;"));
+        password->setTextFormat(Qt::RichText);
+        password->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        Form->addWidget(password);
+
+        PasswordInput = new QLineEdit(verticalLayoutWidget);
+        PasswordInput->setObjectName(QString::fromUtf8("PasswordInput"));
+        PasswordInput->setStyleSheet(QString::fromUtf8("font-family: inherit;\n"
+"  width: 100%;\n"
+"  border: 0;\n"
+"  border-bottom: 2px solid #6f8569;\n"
+"  outline: 0;\n"
+"  font-size: 1.3rem;\n"
+"  color: #2b3b26;\n"
+"  padding: 7px 0;\n"
+"  background: transparent;"));
+        PasswordInput->setEchoMode(QLineEdit::Password);
+
+        Form->addWidget(PasswordInput);
+
+        horizontalLayoutWidget_2 = new QWidget(page_2);
+        horizontalLayoutWidget_2->setObjectName(QString::fromUtf8("horizontalLayoutWidget_2"));
+        horizontalLayoutWidget_2->setGeometry(QRect(210, 300, 311, 80));
+        Loginbtn = new QHBoxLayout(horizontalLayoutWidget_2);
+        Loginbtn->setObjectName(QString::fromUtf8("Loginbtn"));
+        Loginbtn->setContentsMargins(0, 0, 0, 0);
+        Return = new QPushButton(horizontalLayoutWidget_2);
+        Return->setObjectName(QString::fromUtf8("Return"));
+        Return->setCursor(QCursor(Qt::PointingHandCursor));
+        Return->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #ebebb0;\n"
+"    color: #06401d;\n"
+"    border: 2px solid #06401d;\n"
+"    border-radius: 10px;\n"
+"    padding: 5px;\n"
+"    font-size: 16px;\n"
+"    font-weight: bold;\n"
+"    text-align: center;\n"
+"margin-left:15px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #06401d;\n"
+"    border-color: #055119;\n"
+"	color:#ebebb0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #06401d;\n"
+"    border-color: #04310f;\n"
+"    color: #f0f0f0;\n"
+"}"));
+
+        Loginbtn->addWidget(Return);
+
+        Login = new QPushButton(horizontalLayoutWidget_2);
+        Login->setObjectName(QString::fromUtf8("Login"));
+        Login->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    background-color: #ebebb0;\n"
+"    color: #06401d;\n"
+"    border: 2px solid #06401d;\n"
+"    border-radius: 10px;\n"
+"    padding: 5px;\n"
+"    font-size: 16px;\n"
+"    font-weight: bold;\n"
+"    text-align: center;\n"
+"margin-left:15px;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #06401d;\n"
+"    border-color: #055119;\n"
+"	color:#ebebb0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #06401d;\n"
+"    border-color: #04310f;\n"
+"    color: #f0f0f0;\n"
+"}"));
+
+        Loginbtn->addWidget(Login);
+
+        horizontalLayoutWidget_3 = new QWidget(page_2);
+        horizontalLayoutWidget_3->setObjectName(QString::fromUtf8("horizontalLayoutWidget_3"));
+        horizontalLayoutWidget_3->setGeometry(QRect(240, 380, 251, 31));
+        Register = new QHBoxLayout(horizontalLayoutWidget_3);
+        Register->setObjectName(QString::fromUtf8("Register"));
+        Register->setContentsMargins(0, 0, 0, 0);
+        user_3 = new QLabel(horizontalLayoutWidget_3);
+        user_3->setObjectName(QString::fromUtf8("user_3"));
+        QFont font2;
+        font2.setPointSize(13);
+        font2.setBold(true);
+        user_3->setFont(font2);
+        user_3->setStyleSheet(QString::fromUtf8("color: #06401d;"));
+        user_3->setTextFormat(Qt::RichText);
+        user_3->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        Register->addWidget(user_3);
+
+        pushButton = new QPushButton(horizontalLayoutWidget_3);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        QFont font3;
+        font3.setPointSize(12);
+        font3.setBold(true);
+        font3.setUnderline(true);
+        pushButton->setFont(font3);
+        pushButton->setCursor(QCursor(Qt::PointingHandCursor));
+        pushButton->setStyleSheet(QString::fromUtf8("   QPushButton {\n"
+"        background-color: transparent;\n"
+"        color: #06401d;\n"
+"        text-decoration: underline;\n"
+"        font-weight: bold;\n"
+"        border: none;\n"
+"    }\n"
+"\n"
+"    QPushButton:hover {\n"
+"        color: #055119;\n"
+"    }"));
+
+        Register->addWidget(pushButton);
+
+        user_2 = new QLabel(horizontalLayoutWidget_3);
+        user_2->setObjectName(QString::fromUtf8("user_2"));
+        user_2->setFont(font2);
+        user_2->setStyleSheet(QString::fromUtf8("color: #06401d;"));
+        user_2->setTextFormat(Qt::RichText);
+        user_2->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        Register->addWidget(user_2);
+
+        stackedWidget->addWidget(page_2);
+        MainWindow->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(MainWindow);
+        menubar->setObjectName(QString::fromUtf8("menubar"));
+        menubar->setGeometry(QRect(0, 0, 800, 23));
+        MainWindow->setMenuBar(menubar);
+        statusbar = new QStatusBar(MainWindow);
+        statusbar->setObjectName(QString::fromUtf8("statusbar"));
+        MainWindow->setStatusBar(statusbar);
+
+        retranslateUi(MainWindow);
+
+        stackedWidget->setCurrentIndex(1);
+
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "Select Your Role :", nullptr));
+        user->setText(QCoreApplication::translate("MainWindow", "Username / Email", nullptr));
+        password->setText(QCoreApplication::translate("MainWindow", "Password", nullptr));
+        PasswordInput->setText(QString());
+        Return->setText(QCoreApplication::translate("MainWindow", "Return", nullptr));
+        Login->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
+        user_3->setText(QCoreApplication::translate("MainWindow", "New Account!", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "REGISTER", nullptr));
+        user_2->setText(QCoreApplication::translate("MainWindow", "Now!!", nullptr));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H

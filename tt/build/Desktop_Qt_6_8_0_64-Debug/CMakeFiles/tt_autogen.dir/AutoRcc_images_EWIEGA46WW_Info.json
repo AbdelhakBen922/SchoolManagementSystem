@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/home/kali9/tt/build/Desktop_Qt_6_8_0_64-Debug/tt_autogen",
+	"CMAKE_BINARY_DIR" : "/home/kali9/tt/build/Desktop_Qt_6_8_0_64-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/kali9/tt/build/Desktop_Qt_6_8_0_64-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/kali9/tt",
+	"CMAKE_SOURCE_DIR" : "/home/kali9/tt",
+	"INCLUDE_DIR" : "/home/kali9/tt/build/Desktop_Qt_6_8_0_64-Debug/tt_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/kali9/tt/arrow.png",
+		"/home/kali9/tt/arrows.png",
+		"/home/kali9/tt/exit.png",
+		"/home/kali9/tt/log-out.png",
+		"/home/kali9/tt/notification.png",
+		"/home/kali9/tt/comment.png",
+		"/home/kali9/tt/home (2).png",
+		"/home/kali9/tt/P1000583.jpg",
+		"/home/kali9/tt/home (1).png",
+		"/home/kali9/tt/home.png"
+	],
+	"LOCK_FILE" : "/home/kali9/tt/build/Desktop_Qt_6_8_0_64-Debug/CMakeFiles/tt_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "/home/kali9/Qt/6.8.0/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/kali9/tt/build/Desktop_Qt_6_8_0_64-Debug/CMakeFiles/tt_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/kali9/tt/images.qrc",
+	"VERBOSITY" : 0
+}
